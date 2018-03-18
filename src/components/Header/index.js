@@ -4,8 +4,9 @@ import Link from 'gatsby-link'
 const Header = () => (
   <div
     style={{
-      background: 'rebeccapurple',
-      marginBottom: '1.45rem',
+      background: '#f5f5f5',
+      marginBottom: '3rem',
+      borderBottom: '2px solid #e6e6e6',
     }}
   >
     <div
@@ -15,15 +16,15 @@ const Header = () => (
         padding: '1.45rem 1.0875rem',
       }}
     >
-      <h1 style={{ margin: 0 }}>
+      <h1 style={{ margin: 0, textAlign: 'center',fontSize: '18px' }}>
         <Link
           to="/"
           style={{
-            color: 'white',
+            color: '#000',
             textDecoration: 'none',
           }}
         >
-          Gatsby
+          My Personal Blog
         </Link>
       </h1>
     </div>

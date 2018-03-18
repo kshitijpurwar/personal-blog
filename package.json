@@ -6,8 +6,13 @@
   "dependencies": {
     "gatsby": "^1.9.236",
     "gatsby-link": "^1.6.39",
+    "gatsby-plugin-catch-links": "^1.0.19",
     "gatsby-plugin-react-helmet": "^2.0.8",
-    "react-helmet": "^5.2.0"
+    "gatsby-source-filesystem": "^1.5.27",
+    "gatsby-transformer-remark": "^1.7.37",
+    "prismjs": "^1.12.2",
+    "react-helmet": "^5.2.0",
+    "react-media": "^1.8.0"
   },
   "keywords": [
     "gatsby"
